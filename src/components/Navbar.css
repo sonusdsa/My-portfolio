@@ -1,0 +1,130 @@
+/* General styling for the navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #ff9900;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+/* Navbar logo */
+.navbar__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Navbar links container */
+.navbar__links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+/* Navbar link styling */
+.navbar__links li a {
+  text-decoration: none;
+  color: #ff9900;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for navbar links */
+.navbar__links li a:hover {
+  color: #ff6f61; /* Accent color on hover */
+}
+
+/* Styling for the burger menu (hamburger icon) */
+.navbar__burger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Lines in the burger menu */
+.navbar__burger-line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  /* Hide navbar links and show burger menu on small screens */
+  .navbar__links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.9); /* Semi-transparent background */
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+  }
+
+  /* Style for the open state of the navbar links */
+  .navbar__links--open {
+    transform: translateX(0);
+  }
+
+  /* Show burger menu */
+  .navbar__burger {
+    display: flex;
+  }
+
+  /* Transform burger lines when the menu is open */
+  .navbar__burger-line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .navbar__burger-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar__burger-line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+/* Ensure burger lines reset when the menu is closed */
+.navbar__burger-line {
+  &:nth-child(1) {
+    transform: none;
+  }
+
+  &:nth-child(2) {
+    opacity: 1;
+  }
+
+  &:nth-child(3) {
+    transform: none;
+  }
+}
+
+/* Ensure the menu closes when a link is clicked */
+.navbar__links li a {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.navbar__links li a:hover {
+  background-color: #444; /* Background color on hover */
+  border-radius: 6px;
+  cursor: pointer;
+}

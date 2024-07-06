@@ -1,0 +1,48 @@
+/* Base styling for the about section */
+.about {
+  padding: 4rem 2rem;
+  background-color: #fbbc05; /* Light background color for contrast */
+  text-align: center;
+  color: #333; /* Dark text for readability */
+}
+
+/* Section header styling */
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #f23d2d; /* Accent color for the header */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+/* Adding a line under the header for a modern touch */
+.about h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #f23d2d; /* Match the header color */
+  margin: 0.5rem auto 0;
+}
+
+/* Paragraph styling */
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: black;
+  font-weight: 400;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+}
