@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import Image from "../assets/images/image.jpg"; // Adjust the path if necessary
+import Image from "../assets/images/Sonu Yadav.jpg"; // Adjust the path if necessary
 
 const Header = () => {
   return (
