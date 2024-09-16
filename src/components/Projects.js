@@ -12,30 +12,30 @@ const projects = [
   },
   {
     id: 2,
-    title: "News Web.App React Alanai",
+    title: "NetFilm-GPT",
     description:
-      "News Web App React Alanai is a web application designed to provide a user-friendly and interactive platform for staying informed about current events. It leverages three key technologies to achieve this:React,Alan AI,News Data Source..Here are some potential functionalities you might encounter:Browsing news,Voice-controlled news consumption.",
-    imgSrc: "/News app.png",
+      "•React.js •Tailwind CSS •Firebase Authentication •TMDB API Integration •Redux Toolkit • Custom Hooks (e.g., usePopularMovies , useNowPlayingMovies ) •React Router •Form Validation • State Management (Redux) • YouTube Video Embedding •API Fetching and Data Handling •Netlify Deployment",
+    imgSrc: "/netfilm-gpt1.jpg",
   },
-  {
-    id: 3,
-    title: "Face Recognition Based Attendance Management System",
-    description:
-      " This project aims to develop a Face Recognition-based Attendance Management System that automates the manual process of attendance tracking. Utilizing Python's Tkinter library and a database, this system modernizes attendance tracking and enhances time management efficiency.",
-    imgSrc: "/FacialRecoginationAttendance.jpg",
-  },
+  // {
+  //   id: 3,
+  //   title: "Face Recognition Based Attendance Management System",
+  //   description:
+  //     " This project aims to develop a Face Recognition-based Attendance Management System that automates the manual process of attendance tracking. Utilizing Python's Tkinter library and a database, this system modernizes attendance tracking and enhances time management efficiency.",
+  //   imgSrc: "/FacialRecoginationAttendance.jpg",
+  // },
   {
     id: 4,
     title: "Personal Portfolio Website",
     description:
-      "This project aims to develop a dynamic and interactive personal portfolio website using React, a popular JavaScript library and EmailJs Service (EmailJS provides a convenient way to send emails from your React application without managing server-side email configurations). The website will serve as your online presence, showcasing your skills, experience, and accomplishments to potential employers, clients, or collaborators.",
-    imgSrc: "/portfolio.jpg",
+      "•Dynamic Personal Portfolio Website •React.js •EmailJS Integration •Client-Side Email Services •Interactive Web Design •Online Professional Presence •Showcase Skills and Experience •JavaScript Library Expertise.",
+    imgSrc: "/portfolio1.jpg",
   },
   {
     id: 5,
     title: "Online Quiz Maker",
     description:
-      "This project focuses on building an interactive Online Quiz Maker application using React, a popular JavaScript library.  The application completes to two main user functionalities: creating quizzes and taking quizzes.Creating Quizzes:Intuitive Interface: React's component-based approach allows for a user-friendly interface for constructing quizzes.Taking Quizzes: Dynamic User Experience,Real-time Feedback. Technical Considerations:React Library,State Management,Data Storage. Benefits of using React:Reusable Components,Dynamic User Experience,Scalability.",
+      "•Interactive Online Quiz Maker •React.js •Quiz Creation Interface •Dynamic Quiz Experience •Real-Time Feedback •State Management •Data Storage Solutions •Component-Based Design •Reusable Components • Scalable Architecture.",
     imgSrc: "/online quiz maker.jpg",
   },
 ];
