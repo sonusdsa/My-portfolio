@@ -3,16 +3,19 @@ import { Fade } from "react-awesome-reveal";
 import "./Skills.css";
 
 const skills = [
-  { name: "HTML", icon: "fab fa-html5" },
-  { name: "CSS", icon: "fab fa-css3-alt" },
-  { name: "JavaScript", icon: "fab fa-js" },
   { name: "React", icon: "fab fa-react" },
   { name: "Redux", icon: "fab fa-react" },
+  { name: "JavaScript", icon: "fab fa-js" },
   { name: "Express.js", icon: "fab fa-react" },
-  { name: "Tailwind CSS", icon: "fab fa-tailwind css" },
   { name: "Rest API", icon: "fab fa-rest api" },
-  { name: "Bootstrap", icon: "fab fa-bootstrap" },
+  { name: ".Net", icon: "fab fa-cpp" },
+  { name: "C#", icon: "fab fa-cpp" },
   { name: "C++", icon: "fab fa-cpp" },
+  { name: "HTML", icon: "fab fa-html5" },
+  { name: "CSS", icon: "fab fa-css3-alt" },
+  { name: "SCSS", icon: "fab fa-css3-alt" },
+  { name: "Tailwind CSS", icon: "fab fa-tailwind css" },
+  { name: "Bootstrap", icon: "fab fa-bootstrap" },
 ];
 
 const Skills = () => {

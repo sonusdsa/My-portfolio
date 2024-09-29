@@ -16,7 +16,7 @@ const Header = () => {
             View Projects
           </a>
           <a
-            href="/Sonu_Yadav_V1.pdf"
+            href="/SonuYadavV1.pdf"
             className="header__cta header__cta--download"
             download
           >
